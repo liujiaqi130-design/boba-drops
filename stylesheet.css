@@ -1,0 +1,105 @@
+img {
+    width: 650px;
+    height: 500px;
+    object-fit: cover;
+    padding: 15px;
+    border: 3px solid #688e5d;
+}
+body {
+    text-align: center;
+    font-family: Georgia;
+    background: #fefae0;
+    color: #b8c884;
+}
+.gradient-title {
+    background: linear-gradient(to right, #2c683a, #b5a3ff);
+    color: transparent;
+    background-clip: text;
+}
+.banner {
+    display: flex;
+    height: 200px;
+    background-color: #fbfbe5;
+    margin-bottom: 50px;
+}
+
+.banner-box {
+    flex: 1;
+    border: 3px solid #84af75
+}
+
+.banner-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0;
+    border: 0;
+}
+.quote-container {
+    padding: 10px;
+    font-family: sans-serif;
+}
+.quote-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.quote-text {
+    color: #89ad4b;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 0;
+}
+.quote-mark {
+    color: #89ad4b;
+    font-size: 32px;
+    font-family: serif;
+    line-height: 1;
+}
+.divider-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.line {
+    flex: 1;
+    height: 2px;
+    background-color: #688e5d
+}
+
+
+.sparkle-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 15px;
+}
+.sparkle {
+    display: inline-block;
+    color: #688e5d;
+
+    animation: spinSparkle 4s linear infinite;
+}
+.sparkle.side {
+    font-size: 20px;
+    animation-delay: 0.5s;
+}
+.sparkle.center {
+    font-size: 30px;
+}
+@keyframes spinSparkle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+footer {
+    margin-top: 80px;
+}
