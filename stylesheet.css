@@ -10,6 +10,7 @@ body {
     font-family: Georgia;
     background: #fefae0;
     color: #b8c884;
+    padding: 25px;
 }
 .gradient-title {
     background: linear-gradient(to right, #2c683a, #b5a3ff);
